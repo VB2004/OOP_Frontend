@@ -1,5 +1,3 @@
-<!--Home page-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,240 +5,209 @@
     <title>Online Supermarket</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
     <script src="https://kit.fontawesome.com/00bdd2cc0c.js" crossorigin="anonymous"></script>
     <link href="public/css/styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet"> 
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-
-
-
  <!-- Nav Bar -->
 
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-light">
-        <a class="navbar-brand" href="#">Logo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Categories
-                       <!-- <img class="menu-icon" src="Menu_icon-removebg-preview.jpg" alt="Categories">-->
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="Fruits_Vegetables.html">Fruits & Vegetables</a></li>                        
-                        <li><a class="dropdown-item" href="Meat.html">Meat</a></li>
-                        <li><a class="dropdown-item" href="Beverage.html">Beverages</a></li>
-                        <li><a class="dropdown-item" href="Others.html">Others</a></li>
-                       
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Your Orders</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i>  Account Details</a></li>
-                        
-                    </ul>
-                </li>
+ <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-light">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link active" aria-current="page" href="#">Home</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#">Link</a>-->
+<!--                </li>-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                   <!-- <img class="menu-icon" src="Menu_icon-removebg-preview.jpg" alt="Categories">-->
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Fruits_Vegetables.html">Fruits & Vegetables</a></li>                        
+                    <li><a class="dropdown-item" href="Meat.html">Meat</a></li>
+                    <li><a class="dropdown-item" href="Beverages.html">Beverages</a></li>
+                    <li><a class="dropdown-item" href="Others.html">Others</a></li>
+                   
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Your Orders</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i>  Account Details</a></li>
+                    
+                </ul>
+            </li>
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link disabled">Disabled</a>-->
 <!--                </li>-->
-            </ul>
-            <form  role="search">
-                <input class="form-control " type="search" placeholder="Search" aria-label="Search"  style="margin-right: 450px">
+        </ul>
+        <form  role="search">
+            <input class="form-control " type="search" placeholder="Search" aria-label="Search"  style="margin-right: 450px">
 <!--                <button class="btn btn-outline-success" type="submit">Search</button>-->
-            </form>
-        </div>
-        <div class="navbar-button">
-          <a  href="/Orders.html"><button type ="button" class="btn orders-button" id="Orders-button">Orders</a></button>
-        </div>
-        <div class="navbar-button">
-          <a  href="login.html"><button type ="button" class="btn  login-button" >Login</a></button>
-        </div>
-        <div class="navbar-button">
-          <button type ="button" class="btn addtocart-button" id="addtocart-button"><i class="fa-solid fa-cart-plus"></i></button>
-      </div>
+        </form>
     </div>
+    <div class="navbar-button">
+        <button type ="button" class="btn btn-dark btn-lg addtocart-button"><i class="fa-solid fa-cart-plus"></i></button>
+    </div>
+    <div class="navbar-button">
+       <button type ="button" class="btn btn-lg btn-dark login-button" ><a  href="login.html">Login</a></button>
+    </div>
+</div>
 </nav>
-
-
-<!-- text part slogan and all -->
-<div class="intro">
-  <div class="intro-text">
-    <p id="intro-text">One stop place for all your daily needs.<br>A few clicks away. </p><br><p><h1 color="black"><a href="#items">Shop Now >></a></h1></p>
-  </div>
+<!--Title-->
+<div class="fruitsVegetables">
+  <h1>Fruits & Vegetables</h1>   
 </div>
 
+<!--Fruits and vegetables section-->
 
+<div class="album py-5 bg-light">
+    <div class="container">
 
-<!-- items -->
-
-<div class="items" id="items">       
-       <div class="album py-5 bg-light">
-        <div class="container">
-    
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-              <div class="card shadow-sm">
-                 <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                 <img class="bd-placeholder-img card-img-top" src="/images/fresh-apple-250x250-modified-modified.png" alt="apple">
-                 <div class="card-body">
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
-                      <input type="text" class="quantity-checker" value="1">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
-                    </div>
-                    <small class="text-muted">price</small>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-sm-4 g-5">
+        <div class="col">
+          <div class="card shadow-sm">
+             <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+             <img class="bd-placeholder-img card-img-top" src="/images/apple.png" alt="apple">
+             <div class="card-body">
+              <p class="card-text">Apple-Shimla<br>5-6pcs<br><br><br>M.R.P:<em class="" ><s>Rs200/kg</s> Rs160/kg</em><br>Standard Delivery Time: &lt20hrs</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                  <input type="text" class="quantity-checker" value="0" id="apple">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+               <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="/images/papaya.png" alt="papaya">
+              <div class="card-body">
+                <p class="card-text">Papaya-Medium<br>(1pcs)500g-800g<br><br><br>M.R.P:<em class="" ><s>Rs67</s> Rs52/kg</em><br>Standard Delivery Time: &lt20hrs</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                    <input type="text" class="quantity-checker" value="0" id="papaya">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="/images/kiwi.png" alt="kiwi">
+                <div class="card-body">
+                <p class="card-text">Kiwi(Box)<br>4pcs<br><br><br>M.R.P:<em class="" ><s>Rs216/kg</s> Rs164/kg</em><br>Standard Delivery Time: &lt20hrs</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                    <input type="text" class="quantity-checker" value="0" id="kiwi">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+           <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="/images/watermelon.png" alt="watermelon">
+              <div class="card-body">
+                <p class="card-text">Watermelon-organiclly grown(Loose)<br>1pc(1kg-3kg)<br><br>M.R.P:<em class="" ><s>Rs143</s> Rs109</em><br>Standard Delivery Time: &lt20hrs</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                    <input type="text" class="quantity-checker" value="0" id="watermelon">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+             <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="/images/okra.png" alt="okra">
+              <div class="card-body">
+                <p class="card-text">Okra(Loose)<br><br>M.R.P:<em class="" ><s>Rs60/kg</s> Rs45/kg</em><br>Standard Delivery Time: &lt20hrs</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                    <input type="text" class="quantity-checker" value="0" id="Okra">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                  </div>                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+            <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="/images/potatoes.png" alt="potato">
+              <div class="card-body">
+                <p class="card-text">potato(Loose)<br><br>M.R.P:<em class="" ><s>Rs62/kg</s> Rs47/kg</em><br>Standard Delivery Time: &lt20hrs</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                    <input type="text" class="quantity-checker" value="0" id="potato">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                   <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                  <img class="bd-placeholder-img card-img-top" src="/images/61M7ZbTTlVL._SL1000_-modified.png" alt="banana">
-                  <div class="card-body">
-                    <p class="card-text"></p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
-                        <input type="text" class="quantity-checker" value="1">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
-                      </div>
-                      <small class="text-muted">price</small>
-                    </div>
-                  </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+             <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="/images/tomato.png" alt="tomato">
+              <div class="card-body">
+                <p class="card-text">Tomato(Loose)<br><br>M.R.P:<em class="" ><s>Rs25/kg</s> Rs20/kg</em><br>Standard Delivery Time: &lt20hrs</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                    <input type="text" class="quantity-checker" value="0" id="tomato">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                  </div> 
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                  <img class="bd-placeholder-img card-img-top" src="/images/istockphoto-1008183784-1024x1024-modified.png" alt="kiwi">
-                    <div class="card-body">
-                    <p class="card-text"></p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
-                        <input type="text" class="quantity-checker" value="1">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
-                      </div>
-                      <small class="text-muted">price</small>
-                    </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+             <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              
+             <img class="bd-placeholder-img card-img-top" src="/images/carrot.png" alt="carrot">
+              <div class="card-body">
+                <p class="card-text">Carrot(Loose)<br><br>M.R.P:<em class="" ><s>Rs69/kg</s> Rs44/kg</em><br>Standard Delivery Time: &lt20hrs</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                    <input type="text" class="quantity-checker" value="0" id="carrot">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
                   </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-               <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                  <img class="bd-placeholder-img card-img-top" src="/images/Beverages-1.png" alt="cold-drink">
-                  <div class="card-body">
-                    <p class="card-text"></p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
-                        <input type="text" class="quantity-checker" value="1">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
-                      </div>
-                      <small class="text-muted">price</small>
-                    </div>
                   </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                 <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                  <img class="bd-placeholder-img card-img-top" src="/images/0816Eggs_SC-modified.png" alt="egg">
-                  <div class="card-body">
-                    <p class="card-text"></p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
-                        <input type="text" class="quantity-checker" value="1">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
-                      </div>
-                     <small class="text-muted">price</small> 
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                  <img class="bd-placeholder-img card-img-top" src="/images/Carrot-Orange-Early-Nantus-Vegetable-Seeds-modified.png" alt="Carrot">
-                  <div class="card-body">
-                    <p class="card-text"></p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
-                        <input type="text" class="quantity-checker" value="1">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
-                      </div>
-                      <small class="text-muted">price</small>  
-                    </div>
-                  </div>
-                </div>
-              </div>
-           </div>    
-          </div>   
-      </div>
-</div>
+            </div>
+          </div>
+       </div>    
+</div>             
 
-<div class="review">
-  <section id="customer_review">
-
-    <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <em class="typeReview">Customer-Care Service </em>
-          <h3 class="review-text">More user-friendly website, best website for daily need products.Customer service is also very helpful</h3>
-         </div>
-         <div class="carousel-item" >
-          <em class="typeReview">G-Mart Awesome Service</em>
-          <h3 class="review-text">Amazing service, prompt & quality delivery without any hustle. Placed order late night and got early morning delivery.</h3>
-         </div>
-         <div class="carousel-item">
-          <em class="typeReview">Product Quality</em>
-          <h3 class="review-text">Rates are very reasonable and everyday they offer at a great price and have a varity of fruits and vegetables.</h3>
-         </div>
-       </div>
-        <a class="carousel-control-prev"  href="#carouselExampleControls"  role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-        
-       </a>
-       <a class="carousel-control-next"  href="#carouselExampleControls" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true" ></span>
-        <span class="sr-only">Next</span>
-        
-       </a>  
-    </div>
-  </section>
-</div>
-
-
-
-<!--Footer n Brands-->
-<footer id="footer">
-  <div class="footer-icons-names">
-    <div class="footer-icons">
-      <i class="social-icon fa-brands fa-facebook-f"></i>
-      <i class="social-icon fa-brands fa-twitter"></i>
-      <i class="social-icon fa-brands fa-instagram"></i>
-      <i class="social-icon fa-solid fa-envelope"></i>
-    </div>
-    <p>© Copyright SuperMart</p>
-  </div>
-</footer>
-
-
-<script src="index.js" type="text/javascript"></script>
+    
 </body>
 </html>
